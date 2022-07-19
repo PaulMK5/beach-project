@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.dark-bg {
+  background-color: #926239;
+  color: white;
+}
+
+.light-bg {
+  background-color: white;
+  color: #926239;
+}
+
+.text-format {
+  padding: 1rem;
+  text-align: center;
+  font-size: 1.05rem;
+  line-height: 1.5;
+}
+
+#background-img {
+  height: 100vh;
+  background-image: url(pics/beachshowcase.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+#center-header {
+  width: 60vw;
+  margin: 0 auto;
+  padding-top: 42vh;
+
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+#center-header h1 {
+  font-size: 3rem;
+}
+
+#read-more-btn {
+  color: #926239;
+  margin-top: 1rem;
+  padding: 0.7rem;
+  background-color: transparent;
+  border: 1px solid;
+  font-size: 1.2rem;
+  border-radius: 5px;
+}
+
+#read-more-btn:hover {
+  background-color: #926239;
+  color: white;
+  cursor: pointer;
+}
+
+#section-3 article {
+  width: 33.1%;
+  display: inline-block;
+  text-align: left;
+}
