@@ -65,3 +65,25 @@
   display: inline-block;
   text-align: left;
 }
+
+@media screen and (max-width: 500px) {
+  #background-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: right;
+  }
+
+  #center-header {
+    padding-top: 0;
+  }
+
+  #section-3 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #section-3 article {
+    width: 100%;
+  }
+}
